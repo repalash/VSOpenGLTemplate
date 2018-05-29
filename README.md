@@ -1,4 +1,8 @@
 # HelloCube
+
+#### This is a modified version of the repo by derhass
+https://github.com/derhass/HelloCube
+
 The purpose of this little program is to demonstrate the basic 
 usage of modern OpenGL core profiles. The program will display
 a rotating, unlit cube, with some color transition on each face.

@@ -98,10 +98,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="shaders\color.fs.glsl" />
+    <None Include="shaders\color.vs.glsl" />
+    <None Include="shaders\cut.fs.glsl" />
+    <None Include="shaders\cut.vs.glsl" />
+    <None Include="shaders\experimental.fs.glsl" />
+    <None Include="shaders\experimental.vs.glsl" />
+    <None Include="shaders\minimal.fs.glsl" />
+    <None Include="shaders\minimal.vs.glsl" />
+    <None Include="shaders\raymarch.fs.glsl" />
+    <None Include="shaders\raymarch.vs.glsl" />
+    <None Include="shaders\wobble.vs.glsl" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cube.cpp" />
     <ClCompile Include="HelloCube.cpp" />
     <ClCompile Include="glad\src\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseApplication.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="ShaderHelpers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
